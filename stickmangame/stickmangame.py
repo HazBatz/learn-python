@@ -14,7 +14,7 @@ class Game:
         self.tk.update()
         self.canvas_height = self.canvas.winfo_height()
         self.canvas_width = self.canvas.winfo_width()
-        self.bg = PhotoImage(file='img\\background.gif')
+        self.bg = PhotoImage(file='background.gif')
         w = self.bg.width()
         h = self.bg.height()
         for x in range(0, 5):

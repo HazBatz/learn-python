@@ -7,7 +7,6 @@ from random import randint, choice
 #mySoundsDir="Sounds"
 #myButtonsDir='Buttons'
 
-
 class Player(pygame.sprite.Sprite):
     def __init__(self):
         super().__init__()
@@ -295,4 +294,4 @@ while True:
             screen.blit(score_message, score_message_rect)
 
     pygame.display.update()
-    clock.tick(60)
+    clock.tick(60) 
