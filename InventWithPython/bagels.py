@@ -32,7 +32,7 @@ def getClues(guess, secretNum):
 def isOnlyDigits(num):
     # Returns True if num is a string of only digits. Otherwise, returns False.
     if num == '':
-        return False
+        return False 
 
     for i in num:
         if i not in '0 1 2 3 4 5 6 7 8 9'.split():

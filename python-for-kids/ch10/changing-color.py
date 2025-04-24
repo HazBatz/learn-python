@@ -6,3 +6,4 @@ mytriangle = canvas.create_polygon(10, 10, 10, 60, 50, 35, fill='red')
 
 canvas.itemconfig(mytriangle, fill='blue')
 canvas.itemconfig(mytriangle, outline='red')
+tk.mainloop()

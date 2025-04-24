@@ -8,3 +8,4 @@ def movetriangle(event):
     canvas.move(1, 5, 0)
 
 canvas.bind_all('<KeyPress-Return>', movetriangle)
+tk.mainloop()

@@ -12,3 +12,4 @@ def random_rectangle(width, height):
     canvas.create_rectangle(x1, y1, x2, y2)
 
 random_rectangle(400, 400)
+tk.mainloop()

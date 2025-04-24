@@ -13,3 +13,4 @@ def random_rectangle(width, height):
 
 for x in range(0, 100):
     random_rectangle(400, 400)
+    tk.mainloop()
